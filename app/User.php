@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Post;
 use App\Role;
 use App\Photo;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -45,6 +46,13 @@ class User extends Authenticatable
             return true;
         }
         return false;
+    }
+
+
+    
+    public function posts() {
+
+        return $this->hasMany(Post::class);
     }
 
 
