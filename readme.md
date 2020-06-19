@@ -1,3 +1,27 @@
+<!-- .styles(
+        [
+          'libs/bootstrap.css',
+          'libs/blog-post.css',
+          'libs/font-awesome.css',
+          'libs/metisMenu.css',
+          'libs/sb-admin-2.css',
+          'libs/styles.css'
+        ],
+        './public/css/libs.css'
+      )
+   
+      .scripts(
+        [
+          'libs/jquery.js',
+          'libs/bootstrap.js',
+          'libs/metisMenu.js',
+          'libs/sb-admin-2.js',
+          'libs/scripts.js'
+        ],
+        './public/js/libs.js'
+      ); -->
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
