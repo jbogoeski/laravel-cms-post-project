@@ -1,9 +1,12 @@
-@extends('layouts.blog-post')
+@extends('layouts.blog-home')
 
 
 
 @section('content')
 
+    <div class="row">
+    
+        <div class="col-sm-4">
 
 
 
@@ -35,7 +38,16 @@
     <hr>
 
 
+
+
     <div id="disqus_thread"></div>
+
+
+    </div> 
+
+        @include('includes.front_sidebar')
+
+    </div>
 <script>
 
 /**
