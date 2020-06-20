@@ -1,14 +1,13 @@
 @extends('layouts.blog-home')
 
 
-
 @section('content')
 
-    <div class="row">
+
     
-        <div class="col-sm-4">
+        <div class="col-sm-8">
 
-
+        <div class="row">
 
     <!-- Blog Post -->
 
@@ -35,19 +34,26 @@
 
     <p>{!! $post->body !!}</p>
 
-    <hr>
 
+    <hr>
 
 
 
     <div id="disqus_thread"></div>
 
 
+
+
     </div> 
 
-        @include('includes.front_sidebar')
+       
 
     </div>
+
+
+
+
+   
 <script>
 
 /**
@@ -69,6 +75,7 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             
 <script id="dsq-count-scr" src="//http-localhost-8000-svjg3xaqg7.disqus.com/count.js" async></script>
+
 
 
 @endsection

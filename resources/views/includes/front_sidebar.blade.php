@@ -1,4 +1,4 @@
- <div class="col-md-4">
+ <div class="col-md-4 pull-right">
 
                 <!-- Blog Search Well -->
                 <div class="well">
@@ -43,4 +43,6 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
                 </div>
 
-            </div>
+</div>
+
+ 
